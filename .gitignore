@@ -1,3 +1,3 @@
 /venv
-/dashboard/files/media
-/dashboard/functions/migrations/*.png
+/dashboard/files/media/*.png
+/dashboard/functions/migrations/
