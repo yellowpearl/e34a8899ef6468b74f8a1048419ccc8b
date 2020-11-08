@@ -23,4 +23,4 @@
 	<li>login in 127.0.0.1/admin</li>
 	<li>go to 127.0.0.1/main</li>
 </ul>
-<img href="https://lh3.googleusercontent.com/pw/ACtC-3dd9uWxRhicsXaZhpmqkH3tx9R0Vc0EJpQ6Y_it3gK-jU2vNaElIDPWTdqf3wsRjT8fslAr5zvxyBYuEYIrhzmvysjGb8AUOhtfNqNxGc1WfDVi3cKNOjU9is3KlrEDLRTe9dGXA_7i13JuFWMWoNAm=w1080-h675-no?authuser=0">
+<p>Example: https://photos.app.goo.gl/WCsyHhdxbgvQ1w9N7</p>
