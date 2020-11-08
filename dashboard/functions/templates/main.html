@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Title</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'css/main.css' %}">
+	</head>
+	<body>
+		<div class="wrap">
+			<table>
+				<caption><a href="/add"><button>Добавить</button></a></caption>
+				<thead>
+					<tr>
+						<th>Функция</th>
+						<th>График</th>
+						<th>Интервал t, дней</th>
+						<th>Шаг t, дней</th>
+						<th>Дата обработки</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for f in functions %}
+						<tr>
+							<td>{{f.formula}}</td>
+							<td><img src="{{f.img.url}}.png" alt="{{f.img_alt}}"></td>
+							<td>{{f.dt}}</td>
+							<td>{{f.interval}}</td>
+							<td>{{f.last_update_time}}</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
